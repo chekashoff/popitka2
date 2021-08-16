@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+            android:id="@+id/save_all"
+            android:title="Сохранить"
+            android:icon="@drawable/white_baseline_save_alt_24"
+            app:showAsAction="always"
+    />
+    <item
+            android:id="@+id/delete_one"
+            android:title="Удалить одного"
+            android:icon="@drawable/elow_baseline_delete_forever_24"
+            app:showAsAction="never"
+
+    />
+    <item
+            android:id="@+id/delete_all"
+            android:title="Удалить все записи"
+            android:icon="@drawable/elow_baseline_delete_forever_24"
+            app:showAsAction="never"
+
+    />
+</menu>
